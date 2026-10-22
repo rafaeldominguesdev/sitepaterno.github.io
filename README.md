@@ -18,9 +18,9 @@ Projeto simples feito com **HTML e CSS** para praticar desenvolvimento web.
 
 ```html
 
-</article>
-</section>
-</div>
-</header>
+<article> </article>
+<section> </section>
+<div> </div>
+<header> </header>
 
 ```
