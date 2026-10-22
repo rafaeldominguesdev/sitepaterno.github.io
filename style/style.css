@@ -174,3 +174,11 @@ a{
     
 }
 
+
+.foto{
+    width: 100%;
+
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+
+}
