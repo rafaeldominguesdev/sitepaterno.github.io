@@ -10,7 +10,7 @@ body{
 
     background-color: #f4f7fb;
     color: #123a63;
-
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;  
@@ -54,6 +54,12 @@ a{
 .cabecalho{
     background-color: #123a63;
     color: white;
+    border: 1px solid #000000;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+o
+    
 
     padding: 30px 0;
    
@@ -104,7 +110,7 @@ a{
     background-color: #fff;
     color: #123a63;
 
-    border: 1px solid #fff;
+    border: 1px solid #000000;
     border-radius: 5px;
 
     text-decoration: none;
@@ -135,8 +141,9 @@ a{
     background-color: #fff;
 
     border: 1px solid #e5e7eb;
-    border-radius: 0ch;
-    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
 
 }
 
@@ -144,11 +151,12 @@ a{
     list-style: none;
     padding: 0;
     margin: 0;
-
+    
 }
 
 .lista-tecnologias li {
     display: inline-block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.10);
 
     margin-right: 8px;
     margin-bottom: 8px;
@@ -166,6 +174,8 @@ a{
 
     text-align: center;
     font-style: normal;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 
 }
 
@@ -182,4 +192,21 @@ a{
     border: 5px solid #123a63;
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
 
+}
+
+.cabecalho, .container{
+    position: relative;
+}
+
+.foto-pai{
+    position: absolute;
+    top: 20px;
+    right: 0;
+
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
